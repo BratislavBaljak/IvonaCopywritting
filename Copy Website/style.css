@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #7D5BA6;  /* Deep Lavender */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+section:nth-child(even) {
+    background-color: #C3B1E1;  /* Light Lavender */
+}
+
+section:nth-child(odd) {
+    background-color: #F0E6EF;  /* Off White */
+}
+
+section:hover {
+    background-color: #B8A9C9; /* Lighter Lavender */
+}
+
+h1, h2 {
+    color: #5D3754; /* Dark Purple */
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: #5D5474; /* Dark Grey */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #7D5BA6; /* Deep Lavender */
+    color: #ffffff;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Circular images */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7D5BA6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #367c39; /* Darker shade for hover */
+    color: #fff;
+}
+
+/* Existing styles */
+.full-screen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+}
+
+.intro-content h2, .intro-content p {
+    margin-bottom: 20px;
+}
+
+#intro {
+    background: url('copywriting-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#services {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 2em;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.service-column {
+    flex: 1;
+    min-width: 30%; /* Adjust based on how many columns per row */
+    max-width: 45%; /* Adjust for maximum width */
+    text-align: center;
+    padding: 10px;
+}
+
+.service-column h3 {
+    color: #7D5BA6; /* Your chosen color for headings */
+    margin-bottom: 5px;
+}
+
+.service-column p {
+    color: #333; /* Text color for descriptions */
+}
+
+
+
+/* Rest of your CSS... *
+
+
+/* Additional styles for buttons, links, etc., can be added here */
